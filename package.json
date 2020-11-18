@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "private":"true",
-  "workspaces": ["./packages/*"],
+  "private": "true",
+  "workspaces": [
+    "./packages/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006 --no-dll",
-    "build-storybook": "build-storybook --no-dll"
+    "build-storybook": "build-storybook --no-dll",
+    "lerna":"lerna publish"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +24,7 @@
     "@storybook/vue": "^6.0.28",
     "async-validator": "^3.5.0",
     "babel-loader": "^8.2.1",
+    "lerna": "^3.22.1",
     "react-is": "^17.0.1",
     "vue-loader": "^15.9.5",
     "vue-template-compiler": "^2.6.12"
