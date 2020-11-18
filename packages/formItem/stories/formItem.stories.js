@@ -13,7 +13,7 @@ export const formItem = ()=>({
              </tl-form-item>`,
    data(){
      return{
-       user:'用户名'
+       user:'用户名222'
      }
    }
 })
