@@ -5,13 +5,13 @@
   "main": "index.js",
   "private": "true",
   "workspaces": [
-    "./packages/button"
+    "./packages/*"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006 --no-dll",
     "build-storybook": "build-storybook --no-dll",
-    "lerna":"lerna publish"
+    "lerna": "lerna publish"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +25,7 @@
     "async-validator": "^3.5.0",
     "babel-loader": "^8.2.1",
     "lerna": "^3.22.1",
+    "plop": "^2.7.4",
     "react-is": "^17.0.1",
     "vue-loader": "^15.9.5",
     "vue-template-compiler": "^2.6.12"
